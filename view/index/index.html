@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YWS 2.0</title>
+    <link rel="icon"href="icon.ico" >
+    <?php include('view/common/style.html'); ?>
+    <script type="text/javascript">
+        if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            window.location.href = "mobile-index.html";
+        }
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="indextop index">
+             <!-- 头部 -->
+            <?php include('view/common/header.html'); ?>
+        <div class="content">
+            <img src="/images/zhu.bg.png">
+        </div>
+    </div>
+     <?php include('view/common/script.html'); ?>
+</body>
+</html>
